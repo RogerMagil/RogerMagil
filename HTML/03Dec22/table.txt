@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript print array</title>
+    <body>
+    <h1>vanakam da mapula <span>Banglore la irundhu</span></h1>
+   <table border="20" cellpadding="100">
+    <tr>
+      <thead>
+      <th> NAME</th>
+      <th> ages</th>
+    </thead>
+    </tr>
+    <tr>
+      <tbody>
+      <td>Roger</td>
+      <td> 21 </td>
+    </tbody>
+    </tr>
+    <tr>
+      <tfoot>
+      <td>Magil</td>
+      <td> 21 </td>
+    </tfoot>
+    </tr>
+   </table>
+      <script>
+      let arr = ["Jack", "John", "James"];
+      document.getElementById("arrPrint").innerHTML = arr;
+       
+      </script>
+  </body>
+  </html>
