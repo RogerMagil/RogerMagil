@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript print array</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1 id="#top">vanakam da mapula <span>Banglore la irundhu</span></h1>
+   <a href="https://www.google.co.in/" target="_blank">google</a> 
+      <script>
+      let arr = ["Jack", "John", "James"];
+      document.getElementById("arrPrint").innerHTML = arr;
+       
+      </script>
+  </body>
+  </html>

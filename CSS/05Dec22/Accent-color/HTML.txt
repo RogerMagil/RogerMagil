@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>The accent-color Property</h1>
+    <h3> Accent color for checkboxes:</h3>
+    <input type="checkbox" id="Vehicle1" name="Vechile name" value="bike checked">
+    <label for="Vehicle1">I have a bike</label><br>
+    <input type="checkbox" id="Vehicle2" name="Vechicle name" value="bike checked">
+    <label for="Vehicle2">I have a car</label><br><br>
+    
+    <h3>Accent color for a range field:</h3>
+   <input type="radio" id="HTML" name="fav-language" value="HTML">
+   <label for="HTML">HTML</label><br>
+   <input type="radio" id="CSS" name="fav-language" value="CSS">
+   <label for="CSS">CSS</label><br><br>
+   
+   <h3>Accent color for a range field:</h3>
+   <label for="Volume">Volume:</label>
+   <input type="range" id="Volume" name="Volume" min="0" max="100"><br>
+
+   <h3>Accent color for a progress element:</h3>
+   <label for="file">Downloading progress:</label>
+   <progress id="file" value="88" max="100">88%</progress>
+  </body>
+</html>

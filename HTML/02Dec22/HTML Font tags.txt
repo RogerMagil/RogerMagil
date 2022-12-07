@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript print array</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+   <div>
+    <h1>vanakam da mapula <span>Banglore la irundhu</span></h1>
+   
+   <p> hello this is <b>Roger Magil</b></p>
+
+   <p> hello this is <strong>Roger Magil</strong></p>
+
+   <p> hello this is <mark>Roger Magil</mark></p>
+
+   <p> hello this is <emp>Roger Magil</emp></p>
+
+   <p> hello this is <ins>Roger Magil</ins></p>
+
+   <p> hello this is <del>Roger Magil</del></p>
+
+   <p> hello this is <span>Roger Magil</span></p>
+
+   <p> hello this is <i> Roger Magil </i></p>
+
+   <p> hello this is <sup>Roger Magil</sup></p>
+
+   </div>
+      <script>
+      let arr = ["Jack", "John", "James"];
+      document.getElementById("arrPrint").innerHTML = arr;
+       
+      </script>
+  </body>
+  </html>">
+      
+

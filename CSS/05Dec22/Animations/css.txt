@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 4ms;
+    animation-fill-mode: both;
+    /* animation-iteration-count: 2; */
+    animation-play-state: play;
+   /* play an animation from the same speed from begin to end*/ animation-timing-function: linear ; 
+  }
+  
+  @keyframes mymove {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+    125% { background:yellow;left: 0px; top: 0px; }
+    150% { background:rgb(0, 42, 255);left: 200px; top: 0px; }
+    160% { background:rgb(0, 238, 255);left: 200px; top: 200px; }
+    180% { background:rgb(255, 0, 132);left: 0px; top: 200px; }
+    200% { background:yellow;left: 0px; top: 0px; }
+  }

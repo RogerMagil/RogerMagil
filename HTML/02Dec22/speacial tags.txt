@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript print array</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1 >vanakam da mapula <span>Banglore la irundhu</span></h1>
+   
+ <article>
+      <h1> Roger Magil</h1>
+      <p>this is my page</p>
+    </article>
+
+ <article>
+      <h2>Roger Magil</h2>
+      <p>this is my page</p>
+    </article>
+    
+<marquee direction="left">Hello This Is React Engineer<br> Roger Magil</marquee>
+   
+<p>
+    <abbr title="Doctor">Dr.</abbr>roger magil
+  
+</p>
+  
+<p>
+    <acronym title="Indian Space Research Center">ISRO</acronym> That is the precious of our Nation
+ 
+ </p>
+  
+<p>
+    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wvRwhN9pvu0TswBZHCbRS08GOi92mRawZg&usqp=CAU" width="400"</figure>
+    
+<figcaption> This is a Volvo car</figcaption>
+  </p>
+  
+<p>this paragraph will go right-to-left.</p>
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+  
+<dialog open=""> this is a dialog window</dialog>
+      
+<script>
+      let arr = ["Jack", "John", "James"];
+      document.getElementById("arrPrint").innerHTML = arr;
+       
+      </script>
+  </body>
+  </html>

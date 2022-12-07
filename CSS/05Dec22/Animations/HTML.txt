@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>The animation Property</h1>
+    <div></div>
+ <p>Move an element from 0px to 200px left. The animation lasts for 5 seconds. It then starts over again, and go on forever (infinite).</p>
+</body>
+</html>

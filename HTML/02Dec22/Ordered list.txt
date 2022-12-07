@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript print array</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>vanakam da mapula <span>Banglore la irundhu</span></h1>
+   <ol type="A">
+    <li> hello roger</li>
+    <li> hello magil</li>
+   </ol>
+      <script>
+      let arr = ["Jack", "John", "James"];
+      document.getElementById("arrPrint").innerHTML = arr;
+       
+      </script>
+  </body>
+  </html>

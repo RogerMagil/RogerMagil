@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The animation Property</h1>
+    <div class="background">
+        <div class="transbox">
+            <p>backdrop filterr blur</p>
+        </div>
+    </div>
+</body>
+</html>

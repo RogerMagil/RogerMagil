@@ -1,0 +1,19 @@
+div.background {
+    background: rgba(245, 245, 245, 0.333) url(https://bd.gaadicdn.com/processedimages/yamaha/mt-15-2-0/source/mt-15-2-062e4b1d700b63.jpg?tr=w-375) no-repeat center;
+    backdrop-filter: blur(4px);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+div.transbox {
+    background-color:rgba(255, 255, 255, 0.135);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    margin: 30px;
+    font-weight: bold;
+}
