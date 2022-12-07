@@ -1,1 +1,29 @@
+<html>
+  <head></head>
+  <body>
+    <form action="#" method="post">
+      
+<fieldset>
+       
+ <legend> personalize</legend>
+      
+<label for="Name">Name:</label>
+<input type="text" name="name" placeholder="name" required/><br>
 
+    
+<label for="Email">Email:</label>
+<input type="email" name="email" placeholder="jkdifb@gmil.com"><br>
+
+    
+<label for="Subject">Subject:</label>
+<input type="text" name="subject" placeholder="type ur text"><br>
+    
+<label for="Message">Message:</label><br>
+<textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+
+<input type="submit" value="send now">
+      
+      </fieldset>
+    </form>
+  </body>
+</html>
