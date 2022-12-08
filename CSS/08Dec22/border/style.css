@@ -1,0 +1,21 @@
+
+.intro button{
+   background-color:red;
+   color: blue;
+   border-width:5px;
+   border-top: dotted;
+   border-bottom: dashed;
+   border-left:aqua ;
+   border-right:chartreuse;
+   border-radius: 20px;
+   border-style:hidden;
+}
+
+p {
+   margin: 35px;
+   border-top: dotted;
+   border-bottom: dashed;
+   border-left: solid;
+   border-right: solid;
+
+}

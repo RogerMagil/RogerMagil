@@ -1,0 +1,21 @@
+#main {
+    width:300px;
+    height:300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row-reverse wrap-reverse wrap-reverse;
+}
+
+#main div {
+    flex: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+ #main div :nth-of-type(2){
+ flex-basis:100px; 
+}
