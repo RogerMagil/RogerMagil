@@ -1,0 +1,51 @@
+div {
+    background-color: rgb(0, 57, 91);
+    color: white;
+}
+
+.static {
+    position: static;
+    border: 3px solid lime;
+}
+
+.relative {
+    position: relative;
+    left: 20%;
+    border: 3px solid lime;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left:0 ;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    border: 3px solid lime;
+}
+
+.relatives {
+    left: 40%;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border: 3px solid lime;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: -40px;
+    border: 3px solid lime;
+}
+
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid green;
+    background: green;
+    padding: 20px ;
+}
