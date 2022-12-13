@@ -1,0 +1,13 @@
+.outline h1 {
+    font-weight: bold;
+}
+
+.outline {
+    padding: 30px;
+    border: 2px solid black;
+    outline: 5px solid green;
+    outline-style: dotted;
+    outline-width: 8px;
+    outline-offset: 2px;
+    background-color: rgb(0, 152, 152);
+}

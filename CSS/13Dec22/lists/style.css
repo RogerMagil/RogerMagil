@@ -1,0 +1,33 @@
+.links h1{
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 3px 2px red;
+}
+
+.links p{
+    font-size: 20px;
+    text-shadow: 3px 2px black;
+}
+.links {
+    padding: 30px;
+    background-color: rgb(78, 162, 162);
+    color: white;
+    text-align: justify;
+}
+
+ol {
+    background: #09944e;
+    padding: 20px;
+    list-style-position: inside;
+    list-style-image:url(https://www.svgrepo.com/show/429862/beat-heart-hospital.svg);
+    list-style-type: none;
+    background-size: 40px;
+
+
+}
+
+ol li {
+    font-size: larger;
+  padding: 10px;
+  margin-left: 35px;
+}

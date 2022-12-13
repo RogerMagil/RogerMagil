@@ -1,0 +1,17 @@
+.text-formatting {
+    padding: 30px;
+    background-color: rgb(72, 72, 224);
+    color: white;
+    text-align:justify;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-decoration-color: white;
+    text-indent: 2px;
+}
+
+.text-formatting h1 {
+    font-weight: bold;
+    text-shadow: 3px 1px red;
+}
+
+JSON -> Javascript object notation
